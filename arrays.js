@@ -35,5 +35,5 @@ function smallestNItems(items, n) {
 			output.push(items[idx])
 		}
 	}
-	return output
+	return output.reverse()
 }
